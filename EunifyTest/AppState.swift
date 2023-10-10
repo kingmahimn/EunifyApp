@@ -1,8 +1,14 @@
-//
-//  AppState.swift
-//  EunifyTest
-//
-//  Created by Mahimn Patel on 2023-10-01.
-//
+import FirebaseAuth
+import Firebase
 
-import Foundation
+class AppState: ObservableObject {
+    @Published var isLoading: Bool = true
+    @Published var isLoggedIn: Bool = false
+
+    init() {
+        Auth.auth().addStateDidChangeListener { _, user in
+            self.isLoading = false
+            self.isLoggedIn = user != nil
+        }
+    }
+}

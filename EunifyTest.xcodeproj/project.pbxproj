@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2234D5B2AC9D4AC00665CB9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2234D5A2AC9D4AC00665CB9 /* HomeView.swift */; };
+		B2234D5D2AC9D9A500665CB9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2234D5C2AC9D9A500665CB9 /* LoginView.swift */; };
+		B2234D5F2AC9DFD300665CB9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2234D5E2AC9DFD300665CB9 /* LoadingView.swift */; };
+		B2234D632AC9E5CC00665CB9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2234D622AC9E5CC00665CB9 /* AppState.swift */; };
+		B230B4702AD03D6700B01BC8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B230B46F2AD03D6700B01BC8 /* FirebaseFirestore */; };
+		B230B4722AD03D6700B01BC8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B230B4712AD03D6700B01BC8 /* FirebaseFirestoreSwift */; };
+		B230B4742AD03D8700B01BC8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B230B4732AD03D8700B01BC8 /* FirebaseStorage */; };
+		B230B4762AD03DC000B01BC8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B230B4752AD03DC000B01BC8 /* AppView.swift */; };
 		B26ACC002AC9CAF800CB599C /* EunifyTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACBFF2AC9CAF800CB599C /* EunifyTestApp.swift */; };
 		B26ACC022AC9CAF800CB599C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC012AC9CAF800CB599C /* ContentView.swift */; };
 		B26ACC042AC9CAF800CB599C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26ACC032AC9CAF800CB599C /* Assets.xcassets */; };
@@ -14,6 +22,17 @@
 		B26ACC112AC9CAF900CB599C /* EunifyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC102AC9CAF900CB599C /* EunifyTestTests.swift */; };
 		B26ACC1B2AC9CAF900CB599C /* EunifyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC1A2AC9CAF900CB599C /* EunifyTestUITests.swift */; };
 		B26ACC1D2AC9CAF900CB599C /* EunifyTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC1C2AC9CAF900CB599C /* EunifyTestUITestsLaunchTests.swift */; };
+		B26ACC2A2AC9CB5C00CB599C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B26ACC292AC9CB5C00CB599C /* GoogleService-Info.plist */; };
+		B26ACC2B2AC9CB5C00CB599C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B26ACC292AC9CB5C00CB599C /* GoogleService-Info.plist */; };
+		B26ACC2C2AC9CB5C00CB599C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B26ACC292AC9CB5C00CB599C /* GoogleService-Info.plist */; };
+		B26ACC2F2AC9CC7100CB599C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B26ACC2E2AC9CC7100CB599C /* FirebaseAnalytics */; };
+		B26ACC312AC9CC7100CB599C /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B26ACC302AC9CC7100CB599C /* FirebaseAnalyticsSwift */; };
+		B26ACC342AC9D0DF00CB599C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B26ACC332AC9D0DF00CB599C /* FirebaseAuth */; };
+		B26ACC3A2AC9D2FA00CB599C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC392AC9D2FA00CB599C /* SignupView.swift */; };
+		B26ACC3B2AC9D2FA00CB599C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC392AC9D2FA00CB599C /* SignupView.swift */; };
+		B26ACC3C2AC9D2FA00CB599C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC392AC9D2FA00CB599C /* SignupView.swift */; };
+		B284B4982ACB962400F7F7F1 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284B4972ACB962400F7F7F1 /* UserStore.swift */; };
+		B2B47B592AD3253F00B1F4F4 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2234D5A2AC9D4AC00665CB9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B2234D5C2AC9D9A500665CB9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B2234D5E2AC9DFD300665CB9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B2234D622AC9E5CC00665CB9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B230B4752AD03DC000B01BC8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		B26ACBFC2AC9CAF800CB599C /* EunifyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EunifyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26ACBFF2AC9CAF800CB599C /* EunifyTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EunifyTestApp.swift; sourceTree = "<group>"; };
 		B26ACC012AC9CAF800CB599C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,9 @@
 		B26ACC162AC9CAF900CB599C /* EunifyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EunifyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26ACC1A2AC9CAF900CB599C /* EunifyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EunifyTestUITests.swift; sourceTree = "<group>"; };
 		B26ACC1C2AC9CAF900CB599C /* EunifyTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EunifyTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B26ACC292AC9CB5C00CB599C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B26ACC392AC9D2FA00CB599C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		B284B4972ACB962400F7F7F1 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230B4722AD03D6700B01BC8 /* FirebaseFirestoreSwift in Frameworks */,
+				B26ACC312AC9CC7100CB599C /* FirebaseAnalyticsSwift in Frameworks */,
+				B230B4702AD03D6700B01BC8 /* FirebaseFirestore in Frameworks */,
+				B2B47B592AD3253F00B1F4F4 /* AlgoliaSearchClient in Frameworks */,
+				B26ACC342AC9D0DF00CB599C /* FirebaseAuth in Frameworks */,
+				B26ACC2F2AC9CC7100CB599C /* FirebaseAnalytics in Frameworks */,
+				B230B4742AD03D8700B01BC8 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,7 @@
 				B26ACC0F2AC9CAF900CB599C /* EunifyTestTests */,
 				B26ACC192AC9CAF900CB599C /* EunifyTestUITests */,
 				B26ACBFD2AC9CAF800CB599C /* Products */,
+				B26ACC322AC9D0DF00CB599C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +132,15 @@
 				B26ACBFF2AC9CAF800CB599C /* EunifyTestApp.swift */,
 				B26ACC012AC9CAF800CB599C /* ContentView.swift */,
 				B26ACC032AC9CAF800CB599C /* Assets.xcassets */,
+				B26ACC292AC9CB5C00CB599C /* GoogleService-Info.plist */,
 				B26ACC052AC9CAF800CB599C /* Preview Content */,
+				B26ACC392AC9D2FA00CB599C /* SignupView.swift */,
+				B2234D5A2AC9D4AC00665CB9 /* HomeView.swift */,
+				B2234D5C2AC9D9A500665CB9 /* LoginView.swift */,
+				B2234D5E2AC9DFD300665CB9 /* LoadingView.swift */,
+				B2234D622AC9E5CC00665CB9 /* AppState.swift */,
+				B284B4972ACB962400F7F7F1 /* UserStore.swift */,
+				B230B4752AD03DC000B01BC8 /* AppView.swift */,
 			);
 			path = EunifyTest;
 			sourceTree = "<group>";
@@ -127,6 +170,13 @@
 			path = EunifyTestUITests;
 			sourceTree = "<group>";
 		};
+		B26ACC322AC9D0DF00CB599C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +193,15 @@
 			dependencies = (
 			);
 			name = EunifyTest;
+			packageProductDependencies = (
+				B26ACC2E2AC9CC7100CB599C /* FirebaseAnalytics */,
+				B26ACC302AC9CC7100CB599C /* FirebaseAnalyticsSwift */,
+				B26ACC332AC9D0DF00CB599C /* FirebaseAuth */,
+				B230B46F2AD03D6700B01BC8 /* FirebaseFirestore */,
+				B230B4712AD03D6700B01BC8 /* FirebaseFirestoreSwift */,
+				B230B4732AD03D8700B01BC8 /* FirebaseStorage */,
+				B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */,
+			);
 			productName = EunifyTest;
 			productReference = B26ACBFC2AC9CAF800CB599C /* EunifyTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +274,10 @@
 				Base,
 			);
 			mainGroup = B26ACBF32AC9CAF800CB599C;
+			packageReferences = (
+				B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B2B47B572AD3253F00B1F4F4 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */,
+			);
 			productRefGroup = B26ACBFD2AC9CAF800CB599C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26ACC072AC9CAF800CB599C /* Preview Assets.xcassets in Resources */,
+				B26ACC2A2AC9CB5C00CB599C /* GoogleService-Info.plist in Resources */,
 				B26ACC042AC9CAF800CB599C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26ACC2B2AC9CB5C00CB599C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26ACC2C2AC9CB5C00CB599C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +324,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26ACC022AC9CAF800CB599C /* ContentView.swift in Sources */,
+				B2234D5B2AC9D4AC00665CB9 /* HomeView.swift in Sources */,
+				B2234D632AC9E5CC00665CB9 /* AppState.swift in Sources */,
 				B26ACC002AC9CAF800CB599C /* EunifyTestApp.swift in Sources */,
+				B2234D5D2AC9D9A500665CB9 /* LoginView.swift in Sources */,
+				B26ACC3A2AC9D2FA00CB599C /* SignupView.swift in Sources */,
+				B284B4982ACB962400F7F7F1 /* UserStore.swift in Sources */,
+				B230B4762AD03DC000B01BC8 /* AppView.swift in Sources */,
+				B2234D5F2AC9DFD300665CB9 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26ACC3B2AC9D2FA00CB599C /* SignupView.swift in Sources */,
 				B26ACC112AC9CAF900CB599C /* EunifyTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +350,7 @@
 			files = (
 				B26ACC1D2AC9CAF900CB599C /* EunifyTestUITestsLaunchTests.swift in Sources */,
 				B26ACC1B2AC9CAF900CB599C /* EunifyTestUITests.swift in Sources */,
+				B26ACC3C2AC9D2FA00CB599C /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +663,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.15.0;
+			};
+		};
+		B2B47B572AD3253F00B1F4F4 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/algolia/algoliasearch-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.18.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B230B46F2AD03D6700B01BC8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B230B4712AD03D6700B01BC8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		B230B4732AD03D8700B01BC8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		B26ACC2E2AC9CC7100CB599C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B26ACC302AC9CC7100CB599C /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		B26ACC332AC9D0DF00CB599C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2B47B572AD3253F00B1F4F4 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */;
+			productName = AlgoliaSearchClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B26ACBF42AC9CAF800CB599C /* Project object */;
 }
