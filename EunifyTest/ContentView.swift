@@ -53,7 +53,7 @@ struct ContentView: View {
             case "Groups":
                 return AnyView(HomeView().environmentObject(userStore))
             case "Settings":
-                return AnyView(HomeView().environmentObject(userStore))
+                return AnyView(SettingsView())
             default:
                 return AnyView(HomeView().environmentObject(userStore))
         }
@@ -70,18 +70,21 @@ struct ContentView: View {
             .background(
                 Color.blue.opacity(0.2)
                     .cornerRadius(15)
-                    .frame(width: 65, height: 50)
+                    .frame(width: computeTabWidth(), height: 50)
                     .offset(x: computeOffset())
                 , alignment: .leading
             )
             .background(Color(.systemBackground))
         }
     }
-    
+
+    func computeTabWidth() -> CGFloat {
+        UIScreen.main.bounds.width / CGFloat(tabs.count)
+    }
+
     func computeOffset() -> CGFloat {
         let tabIndex = tabs.firstIndex(where: { $0.title == selectedTab }) ?? 0
-        let tabWidth = UIScreen.main.bounds.width / CGFloat(tabs.count)
-        return CGFloat(tabIndex) * tabWidth - tabWidth/2 + 50.5
+        return CGFloat(tabIndex) * computeTabWidth()
     }
 
     let tabs = [

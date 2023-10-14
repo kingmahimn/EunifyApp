@@ -32,6 +32,7 @@
 		B26ACC3B2AC9D2FA00CB599C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC392AC9D2FA00CB599C /* SignupView.swift */; };
 		B26ACC3C2AC9D2FA00CB599C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC392AC9D2FA00CB599C /* SignupView.swift */; };
 		B284B4982ACB962400F7F7F1 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284B4972ACB962400F7F7F1 /* UserStore.swift */; };
+		B288FF302ADB223800F7BDAE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288FF2F2ADB223800F7BDAE /* SettingsView.swift */; };
 		B2B47B592AD3253F00B1F4F4 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		B26ACC292AC9CB5C00CB599C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B26ACC392AC9D2FA00CB599C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		B284B4972ACB962400F7F7F1 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		B288FF2F2ADB223800F7BDAE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				B2234D622AC9E5CC00665CB9 /* AppState.swift */,
 				B284B4972ACB962400F7F7F1 /* UserStore.swift */,
 				B230B4752AD03DC000B01BC8 /* AppView.swift */,
+				B288FF2F2ADB223800F7BDAE /* SettingsView.swift */,
 			);
 			path = EunifyTest;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				B2234D632AC9E5CC00665CB9 /* AppState.swift in Sources */,
 				B26ACC002AC9CAF800CB599C /* EunifyTestApp.swift in Sources */,
 				B2234D5D2AC9D9A500665CB9 /* LoginView.swift in Sources */,
+				B288FF302ADB223800F7BDAE /* SettingsView.swift in Sources */,
 				B26ACC3A2AC9D2FA00CB599C /* SignupView.swift in Sources */,
 				B284B4982ACB962400F7F7F1 /* UserStore.swift in Sources */,
 				B230B4762AD03DC000B01BC8 /* AppView.swift in Sources */,
