@@ -49,9 +49,9 @@ struct ContentView: View {
             case "Search":
                 return AnyView(HomeView().environmentObject(userStore))
             case "Consortium":
-                return AnyView(AddView())
-            case "Messages":
                 return AnyView(HomeView().environmentObject(userStore))
+            case "Messages":
+                return AnyView(MessagingView())
             case "Settings":
                 return AnyView(SettingsView())
             default:

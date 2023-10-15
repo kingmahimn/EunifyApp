@@ -37,6 +37,7 @@
 		B288FF352ADBAB6D00F7BDAE /* SwiftUIIntrospect-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B288FF342ADBAB6D00F7BDAE /* SwiftUIIntrospect-Dynamic */; };
 		B288FF372ADBAB6D00F7BDAE /* SwiftUIIntrospect-Static in Frameworks */ = {isa = PBXBuildFile; productRef = B288FF362ADBAB6D00F7BDAE /* SwiftUIIntrospect-Static */; };
 		B2B47B592AD3253F00B1F4F4 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */; };
+		D64F053C2ADC522000B2AA83 /* MessagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F053B2ADC522000B2AA83 /* MessagingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		B26ACC392AC9D2FA00CB599C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		B284B4972ACB962400F7F7F1 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		B288FF2F2ADB223800F7BDAE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D64F053B2ADC522000B2AA83 /* MessagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				B284B4972ACB962400F7F7F1 /* UserStore.swift */,
 				B230B4752AD03DC000B01BC8 /* AppView.swift */,
 				B288FF2F2ADB223800F7BDAE /* SettingsView.swift */,
+				D64F053B2ADC522000B2AA83 /* MessagingView.swift */,
 			);
 			path = EunifyTest;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				B288FF302ADB223800F7BDAE /* SettingsView.swift in Sources */,
 				B26ACC3A2AC9D2FA00CB599C /* SignupView.swift in Sources */,
 				B284B4982ACB962400F7F7F1 /* UserStore.swift in Sources */,
+				D64F053C2ADC522000B2AA83 /* MessagingView.swift in Sources */,
 				B230B4762AD03DC000B01BC8 /* AppView.swift in Sources */,
 				B2234D5F2AC9DFD300665CB9 /* LoadingView.swift in Sources */,
 			);

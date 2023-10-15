@@ -59,7 +59,7 @@ struct ProfileView: View {
     @State private var cropPosition: CGPoint = .zero
     @State private var showProfilePictureConfirmation = false
     @State private var showCropConfirmation = false
-
+    
     func loadImage() {
         guard let inputImage = inputImage else { return }
         profileImage = Image(uiImage: inputImage)
