@@ -48,9 +48,9 @@ struct ContentView: View {
                 return AnyView(HomeView().environmentObject(userStore))
             case "Search":
                 return AnyView(HomeView().environmentObject(userStore))
-            case "Add":
+            case "Consortium":
                 return AnyView(AddView())
-            case "Groups":
+            case "Messages":
                 return AnyView(HomeView().environmentObject(userStore))
             case "Settings":
                 return AnyView(SettingsView())
@@ -90,8 +90,8 @@ struct ContentView: View {
     let tabs = [
         Tab(icon: "house.fill", title: "Home"),
         Tab(icon: "magnifyingglass", title: "Search"),
-        Tab(icon: "plus.rectangle.fill.on.rectangle.fill", title: "Add"),
-        Tab(icon: "message.fill", title: "Consortiums"),
+        Tab(icon: "rectangle.3.group.fill", title: "Consortium"),
+        Tab(icon: "message.fill", title: "Messages"),
         Tab(icon: "person.crop.circle", title: "Settings")
     ]
 }

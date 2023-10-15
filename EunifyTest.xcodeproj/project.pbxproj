@@ -33,6 +33,9 @@
 		B26ACC3C2AC9D2FA00CB599C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26ACC392AC9D2FA00CB599C /* SignupView.swift */; };
 		B284B4982ACB962400F7F7F1 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284B4972ACB962400F7F7F1 /* UserStore.swift */; };
 		B288FF302ADB223800F7BDAE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288FF2F2ADB223800F7BDAE /* SettingsView.swift */; };
+		B288FF332ADBAB6D00F7BDAE /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = B288FF322ADBAB6D00F7BDAE /* SwiftUIIntrospect */; };
+		B288FF352ADBAB6D00F7BDAE /* SwiftUIIntrospect-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B288FF342ADBAB6D00F7BDAE /* SwiftUIIntrospect-Dynamic */; };
+		B288FF372ADBAB6D00F7BDAE /* SwiftUIIntrospect-Static in Frameworks */ = {isa = PBXBuildFile; productRef = B288FF362ADBAB6D00F7BDAE /* SwiftUIIntrospect-Static */; };
 		B2B47B592AD3253F00B1F4F4 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */; };
 /* End PBXBuildFile section */
 
@@ -85,8 +88,11 @@
 				B230B4702AD03D6700B01BC8 /* FirebaseFirestore in Frameworks */,
 				B2B47B592AD3253F00B1F4F4 /* AlgoliaSearchClient in Frameworks */,
 				B26ACC342AC9D0DF00CB599C /* FirebaseAuth in Frameworks */,
+				B288FF352ADBAB6D00F7BDAE /* SwiftUIIntrospect-Dynamic in Frameworks */,
 				B26ACC2F2AC9CC7100CB599C /* FirebaseAnalytics in Frameworks */,
+				B288FF372ADBAB6D00F7BDAE /* SwiftUIIntrospect-Static in Frameworks */,
 				B230B4742AD03D8700B01BC8 /* FirebaseStorage in Frameworks */,
+				B288FF332ADBAB6D00F7BDAE /* SwiftUIIntrospect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +210,9 @@
 				B230B4712AD03D6700B01BC8 /* FirebaseFirestoreSwift */,
 				B230B4732AD03D8700B01BC8 /* FirebaseStorage */,
 				B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */,
+				B288FF322ADBAB6D00F7BDAE /* SwiftUIIntrospect */,
+				B288FF342ADBAB6D00F7BDAE /* SwiftUIIntrospect-Dynamic */,
+				B288FF362ADBAB6D00F7BDAE /* SwiftUIIntrospect-Static */,
 			);
 			productName = EunifyTest;
 			productReference = B26ACBFC2AC9CAF800CB599C /* EunifyTest.app */;
@@ -280,6 +289,7 @@
 			packageReferences = (
 				B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				B2B47B572AD3253F00B1F4F4 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */,
+				B288FF312ADBAB6D00F7BDAE /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 			);
 			productRefGroup = B26ACBFD2AC9CAF800CB599C /* Products */;
 			projectDirPath = "";
@@ -677,6 +687,14 @@
 				minimumVersion = 10.15.0;
 			};
 		};
+		B288FF312ADBAB6D00F7BDAE /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
 		B2B47B572AD3253F00B1F4F4 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/algolia/algoliasearch-client-swift";
@@ -717,6 +735,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B26ACC2D2AC9CC7100CB599C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		B288FF322ADBAB6D00F7BDAE /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B288FF312ADBAB6D00F7BDAE /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+		B288FF342ADBAB6D00F7BDAE /* SwiftUIIntrospect-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B288FF312ADBAB6D00F7BDAE /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = "SwiftUIIntrospect-Dynamic";
+		};
+		B288FF362ADBAB6D00F7BDAE /* SwiftUIIntrospect-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B288FF312ADBAB6D00F7BDAE /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = "SwiftUIIntrospect-Static";
 		};
 		B2B47B582AD3253F00B1F4F4 /* AlgoliaSearchClient */ = {
 			isa = XCSwiftPackageProductDependency;
